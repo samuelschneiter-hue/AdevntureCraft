@@ -1,0 +1,28 @@
+{
+  "name": "item-codex",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --port 3000",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "1.168.22",
+    "lucide-react": "0.576.0",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.2.2",
+    "@tanstack/router-plugin": "1.167.22",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.2.0",
+    "tailwindcss": "4.2.2",
+    "typescript": "5.9.3",
+    "vite": "7.3.3",
+    "vite-tsconfig-paths": "6.1.1"
+  }
+}
