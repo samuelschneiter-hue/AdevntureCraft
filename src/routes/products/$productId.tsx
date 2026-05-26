@@ -1,4 +1,4 @@
-import { Link, createFileRoute } from '@tanstack/react-router'
+  import { Link, createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
 import { Sword, Shield, Gem, Droplets, Wind, Star, Coins, Info, ChevronLeft } from 'lucide-react'
 import items, { type ItemType, type Rarity, rarityConfig, typeLabels } from '../../data/items'
@@ -185,7 +185,7 @@ function ItemDetailPage() {
             <span>
               Alle Items sind <strong style={{ color: 'var(--text-bright)' }}>rein kosmetisch</strong> und
               haben keinen Einfluss auf das Gameplay. Bezahlung via Twint, Lieferung sofort nach
-              Zahlungseingang. Preise in CHF, dauerhaft ans Account gebunden.
+              Zahlungseingang. Preise in CHF, dauerhaft an den Account gebunden.
             </span>
           </div>
         </div>
